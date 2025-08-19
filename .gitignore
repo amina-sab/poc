@@ -1,0 +1,9 @@
+# Variables d'environnement
+.env
+
+# Environnement virtuel
+.venv
+.venvvv
+
+# Fichiers de configuration
+.vscode
