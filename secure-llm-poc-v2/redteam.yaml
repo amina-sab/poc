@@ -1,0 +1,15 @@
+version: 1
+
+redteam:
+  target:
+    provider: secure-local
+    strategies:
+    - id: prompt-injection
+    - id: jailbreak
+    - id: data-exfiltration
+    - id: pii:direct
+
+
+output:
+  path: results/redteam-poc
+  formats: [pretty, html]
