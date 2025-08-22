@@ -10,6 +10,9 @@ typing_extensions
 ftfy
 promptfoo
 langchain_community
+pytest
+click
+pyyaml
 # API
 fastapi>=0.111.0
 uvicorn>=0.30.0
